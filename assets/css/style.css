@@ -31,3 +31,9 @@
     background-color: darkcyan;
     color: black;
 }
+
+.projects {
+    display: flex;
+    background-color: dodgerblue;
+}
+

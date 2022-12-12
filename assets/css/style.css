@@ -34,6 +34,38 @@
 
 .projects {
     display: flex;
-    background-color: dodgerblue;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-width: 2px;
+    justify-content: center;
+}
+
+.projects div {
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 10px;
+    border-style: solid;
+    
+    
+    
+}
+
+.projects div:hover {
+    background-color: white;
+}
+
+.social-media div {
+    list-style-type: none;
+}
+
+.social-media div div {
+    display: inline-block;
+    margin-left: auto;
+    padding-left: 11%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-right: 4%;
 }
 
